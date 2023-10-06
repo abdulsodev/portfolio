@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+   padding-top: 100px;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    position: relative;
+}
+
+
+#drawer-sidebar{ 
+    z-index: 1;
+    position: relative;
+    height: 100%vh;
+    
+}
+
+.mynav{ 
+    z-index: 1;
+}
+
+#skills{ 
+    z-index: -1;
+    position: relative;
+
+}
+
